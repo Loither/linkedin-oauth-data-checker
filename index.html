@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LinkedIn profile data checker</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+        api_key: <insert LinkedIn apikey>
+        authorize: true
+        onLoad: onLinkedInLoad
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="greetings">
+            <h1>LinkedIn oAuth public data checker</h1>
+            <p>Sign in to view public profile data available for apps</p>
+            <script type="in/Login"></script>
+        </div>
+        <div id="profile-data">
+            <img id="profile-pic">
+            <h1 id="name"></h1>
+            <p class="helper">Headline</p>
+            <p id="headline"></p>
+            <p class="helper">Location</p>
+            <p id="location"></p>
+            <p class="helper">Connections</p>
+            <p id="num-connections"></p>
+            <p class="helper">Summary</p>
+            <p id="summary"></p>
+            <p class="helper">E-mail</p>
+            <p id="email-address"></p>
+            <p class="helper">Positions</p>
+            <p id="positions"></p>
+            <p class="helper">Industry</p>
+            <p id="industry"></p>
+            <p class="helper">Profile URL</p>
+            <p id="profile-url"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

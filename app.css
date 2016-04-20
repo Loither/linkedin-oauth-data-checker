@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #e4e4e4;
+    color: #343434;
+    text-align: center;
+    padding: 50px;
+    font-size: 80%;
+}
+
+a {
+    color: #2A5DB0;
+}
+
+#container {
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+#profile-data {
+    display: none;
+}
+
+.helper {
+    font-size: 80%;
+    margin-bottom: -5px;
+    margin-top: 30px;
+    width: 250px;
+    color: #808080;
+    border-bottom: 1px solid #c4c4c4;
+}
